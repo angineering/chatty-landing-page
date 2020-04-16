@@ -27,12 +27,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px 20px;
+  padding: 80px 20px;
 }
 
 .App-header h1 {
   font-weight:700;
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+.App-header h2 {
+  font-size: 1.25rem;
 }
 
 .App-header div {
@@ -53,6 +57,13 @@
   .App-header {
     flex-direction: row;
     padding: 20px 100px;
+  }
+  .App-header h1 {
+    font-weight:700;
+    font-size: 3rem;
+  }
+  .App-header h2 {
+    font-size: 1.5rem;
   }
   .App-header .screenshot {
     height: 400px;
@@ -79,6 +90,10 @@ footer {
   justify-content: space-around;
   font-size: 12px;
   text-align: center;
+}
+
+footer > * {
+  padding: 10px;
 }
 
 footer a {
