@@ -6,7 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 
 import Main from './Main'
@@ -16,7 +17,7 @@ import Terms from './Terms'
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="App">
         <Navbar variant="dark" expand="lg" className="App-navbar" fixed="top">
           <Navbar.Brand href="/">
@@ -55,7 +56,7 @@ function App() {
             <p>&copy; Angela Branaes 2020</p>
         </footer>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
