@@ -27,7 +27,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px 100px;
+  padding: 20px 20px;
 }
 
 .App-header h1 {
@@ -36,25 +36,30 @@
 }
 
 .App-header div {
-  padding: 30px;
+  padding: 15px;
   text-align: left;
 }
 
-.App-header img {
+.App-header .screenshot {
+  max-width: 80vw;
   height: 200px;
+}
+
+.App-link {
+  color: #61dafb;
 }
 
 @media (min-width: 800px ) {
   .App-header {
     flex-direction: row;
+    padding: 20px 100px;
   }
-  .App-header img {
+  .App-header .screenshot {
     height: 400px;
   }
-}
-
-.App-link {
-  color: #61dafb;
+  .App-header div {
+    padding: 30px;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -68,10 +73,12 @@
 
 footer {
   height: 100px;
-  padding: 40px;
+  padding: 20px;
   display: flex !important;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 12px;
+  text-align: center;
 }
 
 footer a {
@@ -83,5 +90,20 @@ main {
 }
 
 .page {
-  padding: 80px 80px;
+  padding: 80px 60px 80px 40px;
+  text-align: justify;
+}
+
+@media (min-width: 800px ) {
+  footer {
+    padding: 40px;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .page {
+    padding: 80px 80px;
+    text-align: left;
+  }
+  
+
 }
