@@ -45,8 +45,7 @@
 }
 
 .App-header .screenshot {
-  max-width: 80vw;
-  height: 200px;
+  max-width: 85vw;
 }
 
 .App-link {
@@ -115,6 +114,10 @@ main {
     font-size: 1rem;
     text-align: left;
   }
+  footer > * {
+    padding: 0px;
+  }
+
   .page {
     padding: 80px 80px;
     text-align: left;
