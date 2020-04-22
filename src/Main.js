@@ -7,7 +7,7 @@ export default class Main extends Component {
     return (
       <header className="App-header">
         <div>
-        <h1>Remember to slack your colleagues</h1>
+        <h1>Remember to Slack your colleagues</h1>
         <h4>
           Keep track of how many colleagues you've spoken to lately,
           and who it's time to reach out to again.

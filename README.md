@@ -1,6 +1,6 @@
 # Chatty
 
-This is the landing page repository for the Chatty slack app.
+This is the landing page repository for the Chatty Slack app.
 
 
 ## Support

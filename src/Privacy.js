@@ -20,7 +20,7 @@ export default class Privacy extends Component {
           Chatty requests access to your Slack Direct Messages solely for the purpose of seeing when the last message was exchanged with a member of your workspace. We never look at or store the content of those messages.
         </p>
         <p>
-          Your user token is securely stored in our database. It is linked to your slack user ID. Your name is not recorded in our database.
+          Your user token is securely stored in our database. It is linked to your Slack user ID. Your name is not recorded in our database.
         </p>
         <p>
           If you decide to stop using Chatty and revoke access, your user information will be deleted from our database.
