@@ -102,6 +102,11 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 main {
   min-height: 90vh;
 }
