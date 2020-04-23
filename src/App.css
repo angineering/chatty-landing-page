@@ -89,6 +89,9 @@ footer {
   justify-content: space-around;
   font-size: 12px;
   text-align: center;
+  background-color: #ed2354;
+  color: white;
+  font-size: 12px;
 }
 
 footer > * {
@@ -96,7 +99,7 @@ footer > * {
 }
 
 footer a {
-  color: black;
+  color: white;
 }
 
 main {
@@ -111,7 +114,7 @@ main {
 @media (min-width: 800px ) {
   footer {
     padding: 40px;
-    font-size: 1rem;
+    font-size: 14px;
     text-align: left;
   }
   footer > * {
@@ -123,4 +126,54 @@ main {
     text-align: left;
   }
 
+}
+
+hr {
+  color: #ed2354;
+  margin: 40px;
+}
+
+.testimonial {
+  padding: 30px 30px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 350px;
+  height: 300px;
+  display: inline-block;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial .quote {
+  font-weight: bold;
+  font-style: italic;
+  color: #191c20
+}
+
+.testimonial .by {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  background-color: #ed2354;
+}
+
+section {
+  padding: 20px 0 120px;
 }
