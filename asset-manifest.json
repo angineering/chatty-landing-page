@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.80f414c3.chunk.css",
-    "main.js": "/static/js/main.5c89e968.chunk.js",
-    "main.js.map": "/static/js/main.5c89e968.chunk.js.map",
+    "main.css": "/static/css/main.a52cf57f.chunk.css",
+    "main.js": "/static/js/main.d1cb07a2.chunk.js",
+    "main.js.map": "/static/js/main.d1cb07a2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.df1ffddf.js",
     "runtime-main.js.map": "/static/js/runtime-main.df1ffddf.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.060741ce.chunk.js": "/static/js/2.060741ce.chunk.js",
-    "static/js/2.060741ce.chunk.js.map": "/static/js/2.060741ce.chunk.js.map",
+    "static/js/2.0ac9b021.chunk.js": "/static/js/2.0ac9b021.chunk.js",
+    "static/js/2.0ac9b021.chunk.js.map": "/static/js/2.0ac9b021.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8e88903bcdf86eb9814e68ecc7c91b0.js": "/precache-manifest.f8e88903bcdf86eb9814e68ecc7c91b0.js",
+    "precache-manifest.bdbddda64863184e958d19806d6d7a82.js": "/precache-manifest.bdbddda64863184e958d19806d6d7a82.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.80f414c3.chunk.css.map": "/static/css/main.80f414c3.chunk.css.map",
-    "static/js/2.060741ce.chunk.js.LICENSE.txt": "/static/js/2.060741ce.chunk.js.LICENSE.txt",
+    "static/css/main.a52cf57f.chunk.css.map": "/static/css/main.a52cf57f.chunk.css.map",
+    "static/js/2.0ac9b021.chunk.js.LICENSE.txt": "/static/js/2.0ac9b021.chunk.js.LICENSE.txt",
+    "static/media/Darren.png": "/static/media/Darren.69c0a85d.png",
+    "static/media/Gina.png": "/static/media/Gina.401ced2d.png",
     "static/media/chatty-screenshot.png": "/static/media/chatty-screenshot.b2926cc7.png",
-    "static/media/logo.png": "/static/media/logo.e11076db.png"
+    "static/media/logo.png": "/static/media/logo.e11076db.png",
+    "static/media/maryam.png": "/static/media/maryam.d29a8c2f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df1ffddf.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.060741ce.chunk.js",
-    "static/css/main.80f414c3.chunk.css",
-    "static/js/main.5c89e968.chunk.js"
+    "static/js/2.0ac9b021.chunk.js",
+    "static/css/main.a52cf57f.chunk.css",
+    "static/js/main.d1cb07a2.chunk.js"
   ]
 }
