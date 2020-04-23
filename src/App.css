@@ -166,12 +166,14 @@ hr {
 .testimonial img {
   height: 90px;
   width: 90px;
+  min-width: 90px;
   border-radius: 50%;
   margin-right: 20px;
 }
 
 .boxes {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -181,4 +183,10 @@ hr {
 
 section {
   padding: 20px 0 120px;
+}
+
+@media (min-width: 800px ) {
+  .boxes {
+    flex-direction: row;
+  }
 }
