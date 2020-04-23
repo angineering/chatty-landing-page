@@ -5,8 +5,8 @@ export default class Terms extends Component {
     return (
       <div className="page">
         <h1>Terms & Conditions</h1>
-        <p>Last updated: 16 April 2020</p>
-        <p>
+        <p className="last-modified">Last updated: 16 April 2020</p>
+        <p className="blurb">
           By installing the Chatty app you agree to the following terms of service, as well as the privacy policy.
         </p>
         <p>

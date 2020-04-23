@@ -186,6 +186,15 @@ section {
   padding: 20px 0 120px;
 }
 
+.last-modified {
+  font-size: 12px;
+}
+
+.blurb {
+  font-weight: 600;
+  font-style: italic;
+}
+
 @media (min-width: 800px ) {
   .boxes {
     flex-direction: row;

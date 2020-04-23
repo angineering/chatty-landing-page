@@ -5,8 +5,8 @@ export default class Privacy extends Component {
     return (
       <div className="page">
         <h1>Privacy Policy</h1>
-        <p>Last modified: 12 March 2020</p>
-        <p>
+        <p className="last-modified">Last modified: 12 March 2020</p>
+        <p className="blurb">
           Thank you for using Chatty. This policy explains how we handle your personal data and privacy.
         </p>
         <h2>Information collection and use</h2>
