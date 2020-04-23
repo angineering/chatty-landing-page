@@ -34,7 +34,7 @@ export default class Main extends Component {
             name="Maryam"
             photo={MaryamImg}
             job="Entrepreneur @ Antler"
-            quote="It pushed me to contact people I've never contacted before. It's very good!"
+            quote="Because it pushed me to contact people I hadn't contacted before on the cohort, I managed to find a co-founder; one of the best applications I've used!"
           />
           <Testimonial
             name="Gina"
