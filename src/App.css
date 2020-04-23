@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+main a {
+  color: #191c20 !important;
+}
+
 .App-navbar {
   background-color: #ed2354;
   font-weight: 700;
@@ -48,10 +52,6 @@
   max-width: 85vw;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @media (min-width: 800px ) {
   .App-header {
     flex-direction: row;
@@ -90,7 +90,7 @@ footer {
   font-size: 12px;
   text-align: center;
   background-color: #ed2354;
-  color: white;
+  color: white !important;
   font-size: 12px;
 }
 
@@ -99,11 +99,11 @@ footer > * {
 }
 
 footer a {
-  color: white;
+  color: white !important;
 }
 
 footer a:hover {
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ main {
 }
 
 .page {
-  padding: 80px 60px 80px 40px;
+  padding: 120px 60px 120px 40px;
   text-align: justify;
 }
 
@@ -127,8 +127,9 @@ main {
   }
 
   .page {
-    padding: 80px 80px;
-    text-align: left;
+    padding: 160px 160px;
+    text-align: justify;
+    max-width: 1000px;
   }
 
 }
@@ -154,7 +155,7 @@ hr {
 .testimonial .quote {
   font-weight: bold;
   font-style: italic;
-  color: #191c20
+  color: #191c20;
 }
 
 .testimonial .by {
