@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a52cf57f.chunk.css",
-    "main.js": "/static/js/main.dcacc217.chunk.js",
-    "main.js.map": "/static/js/main.dcacc217.chunk.js.map",
+    "main.css": "/static/css/main.625377fc.chunk.css",
+    "main.js": "/static/js/main.f26506f8.chunk.js",
+    "main.js.map": "/static/js/main.f26506f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.df1ffddf.js",
     "runtime-main.js.map": "/static/js/runtime-main.df1ffddf.js.map",
     "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
-    "static/js/2.0ac9b021.chunk.js": "/static/js/2.0ac9b021.chunk.js",
-    "static/js/2.0ac9b021.chunk.js.map": "/static/js/2.0ac9b021.chunk.js.map",
+    "static/js/2.7eb923a2.chunk.js": "/static/js/2.7eb923a2.chunk.js",
+    "static/js/2.7eb923a2.chunk.js.map": "/static/js/2.7eb923a2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e12f73ed3ac76d845d05ba68815a0bcc.js": "/precache-manifest.e12f73ed3ac76d845d05ba68815a0bcc.js",
+    "precache-manifest.8e82e7e77b4d4bc93d2d82d61510d5f7.js": "/precache-manifest.8e82e7e77b4d4bc93d2d82d61510d5f7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
-    "static/css/main.a52cf57f.chunk.css.map": "/static/css/main.a52cf57f.chunk.css.map",
-    "static/js/2.0ac9b021.chunk.js.LICENSE.txt": "/static/js/2.0ac9b021.chunk.js.LICENSE.txt",
+    "static/css/main.625377fc.chunk.css.map": "/static/css/main.625377fc.chunk.css.map",
+    "static/js/2.7eb923a2.chunk.js.LICENSE.txt": "/static/js/2.7eb923a2.chunk.js.LICENSE.txt",
+    "static/media/AntlerLogo.png": "/static/media/AntlerLogo.321772fa.png",
     "static/media/Darren.png": "/static/media/Darren.69c0a85d.png",
     "static/media/Gina.png": "/static/media/Gina.401ced2d.png",
+    "static/media/InnovatorsRoom.png": "/static/media/InnovatorsRoom.9c34ff71.png",
+    "static/media/RCLogo.png": "/static/media/RCLogo.f3c46e92.png",
     "static/media/chatty-screenshot.png": "/static/media/chatty-screenshot.b2926cc7.png",
     "static/media/logo.png": "/static/media/logo.e11076db.png",
     "static/media/maryam.png": "/static/media/maryam.d29a8c2f.png"
@@ -23,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.df1ffddf.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.0ac9b021.chunk.js",
-    "static/css/main.a52cf57f.chunk.css",
-    "static/js/main.dcacc217.chunk.js"
+    "static/js/2.7eb923a2.chunk.js",
+    "static/css/main.625377fc.chunk.css",
+    "static/js/main.f26506f8.chunk.js"
   ]
 }
