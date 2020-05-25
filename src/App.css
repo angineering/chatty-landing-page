@@ -55,7 +55,7 @@ main a {
 @media (min-width: 800px ) {
   .App-header {
     flex-direction: row;
-    padding: 20px 10px;
+    padding: 20px 60px;
   }
   .App-header h1 {
     font-weight:800;
@@ -142,7 +142,8 @@ hr {
 .testimonial {
   padding: 30px 30px;
   border-radius: 10px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 350px;
   height: 300px;
   display: inline-block;
@@ -176,6 +177,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #main {
@@ -183,7 +185,7 @@ hr {
 }
 
 section {
-  padding: 60px 10px 60px;
+  padding: 30px 30px 30px;
 }
 
 .last-modified {
@@ -197,20 +199,52 @@ section {
 
 .logos {
   background-color: white;
-  padding-left: 80px;
-  padding-right: 80px;
   flex-direction: row;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
-.logos *, img {
-  max-width: 250px;
+/* .logos img {
+  max-width: 80px;
+} */
+
+#antler-logo {
+  height: 30px
+}
+
+#ir-logo {
+  height: 60px
+}
+
+#rc-logo {
+  height: 50px;
 }
 
 @media (min-width: 800px ) {
+  section {
+    padding: 60px 100px 60px;
+  }
   .boxes {
     flex-direction: row;
+    justify-content: space-between;
   }
+  .logos {
+    flex-direction: row;
+  }
+  .logos img {
+    max-width: 150px;
+  }
+  .logos * {
+    max-width: 200px;
+  }
+  #antler-logo {
+    height: 40px
+  }
+  #ir-logo {
+    height: 100px
+  }
+  #rc-logo {
+    height: 90px;
+  }  
 }
