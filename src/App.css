@@ -24,7 +24,7 @@ main a {
 
 .App-header {
   background-color: #ed2354;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,10 +55,10 @@ main a {
 @media (min-width: 800px ) {
   .App-header {
     flex-direction: row;
-    padding: 20px 100px;
+    padding: 20px 10px;
   }
   .App-header h1 {
-    font-weight:700;
+    font-weight:800;
     font-size: 3rem;
   }
   .App-header h2 {
@@ -183,7 +183,7 @@ hr {
 }
 
 section {
-  padding: 20px 0 120px;
+  padding: 60px 10px 60px;
 }
 
 .last-modified {
@@ -193,6 +193,20 @@ section {
 .blurb {
   font-weight: 600;
   font-style: italic;
+}
+
+.logos {
+  background-color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos *, img {
+  max-width: 250px;
 }
 
 @media (min-width: 800px ) {

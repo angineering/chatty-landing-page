@@ -4,6 +4,10 @@ import Testimonial from './components/Testimonial'
 import DarrenImg from './static/images/Darren.png'
 import GinaImg from './static/images/Gina.png'
 import MaryamImg from './static/images/maryam.png'
+import AntlerLogo from './static/images/AntlerLogo.png'
+import AvivGroup from './static/images/aviv-group.js'
+import InnovatorsRoom from './static/images/InnovatorsRoom.png'
+import RC from './static/images/RCLogo.png'
 
 export default class Main extends Component {
   render() {
@@ -23,6 +27,12 @@ export default class Main extends Component {
             <img className="screenshot" src={ Screenshot } alt="screenshot of Chatty app" />
           </div>
         </header>
+        <section className="logos">
+          <img src={ AntlerLogo } alt="Antler logo" style={{ 'height': '50px'}}/>
+          <img src={ InnovatorsRoom } alt="InnovatorsRoom logo" style={{ 'height': '100px'}} />
+          <AvivGroup />
+          <img src={ RC } alt="Retail Collective logo" style={{ 'height': '100px'}} />
+        </section>
         <section className="boxes">
           <Testimonial
             name="Darren"
