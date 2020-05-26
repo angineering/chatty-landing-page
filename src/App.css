@@ -58,7 +58,7 @@ main a {
     padding: 20px 60px;
   }
   .App-header .screenshot {
-    height: 350px;
+    height: 300px;
   }
 }
 
@@ -263,19 +263,19 @@ section {
 
 @media (min-width: 800px) and (max-width: 1200px)  {
   section {
-    padding: 60px 50px 60px;
+    padding: 60px 30px 60px;
   }
   .testimonial {
     margin: 5px;
-    font-size: 0.8rem;
-    width: 330px;
-    height: 250px;
+    font-size: 0.75rem;
+    width: 350px;
+    height: 270px;
   }
 
   .testimonial img {
-    height:80px;
-    width: 80px;
-    min-width: 80px;
+    height:70px;
+    width: 70px;
+    min-width: 70px;
     border-radius: 50%;
     margin-right: 20px;
   }
